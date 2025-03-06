@@ -14,6 +14,8 @@ Before following the instructions of this README to implement the application, y
 - The Azure Client for CLI that you can install following <a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli">this guide</a>.
 - The Azure Functions Core Tools that you can install following <a href="https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-python">this guide</a>
 
+> SUGGESTION: if you wish, you have a Dockerfile in the root directory of this repo. This image includes the Azure CLI client and the Functions Core Tools. You will be able to connect with it via SSH.
+
 ## First step: Creating a Telegram Bot
 
 I will not explain how to do it here, because I have already done it <a href="https://github.com/Dani-97/clip_imagesearch_aws_telegram_bot">in this repo</a> and there are many tutorials available online of how to do it. All I can say is **"store the TOKEN of the bot you have created, because you will need it later"**.
@@ -53,15 +55,4 @@ Once you have modified the config.cfg to fit your needs, you can go to the root 
 **If everything is OK, this should be the end of this tutorial for you.**
 
 > SUGGESTION: if, for whatever reason, you want to remove the copy of the repository that has been downloaded, run <code>clean_project_files.sh</code>.
-
-
-
-
-
-
-
-
-
-
-
 
